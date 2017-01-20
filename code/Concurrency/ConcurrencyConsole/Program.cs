@@ -10,7 +10,9 @@ namespace ConcurrencyConsole
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("###############################");
             Console.WriteLine("Welcome to Concurrency Console!");
+            Console.WriteLine("###############################");
             Console.ReadLine();
         }
     }
