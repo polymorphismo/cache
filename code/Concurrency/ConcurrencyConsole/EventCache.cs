@@ -13,5 +13,9 @@ namespace ConcurrencyConsole
             Console.WriteLine("EventCache starting");
         }
 
+        public static void Finish()
+        {
+            Console.WriteLine("EventCache finished");
+        }
     }
 }
