@@ -8,14 +8,15 @@ namespace ConcurrencyConsole
 {
     public class EventCache
     {
+        private const string moduleName = "EventCache";
         public static  void Start()
         {
-            Console.WriteLine("EventCache starting...");
+            Console.WriteLine(moduleName + " starting...");
         }
 
         public static void Finish()
         {
-            Console.WriteLine("EventCache is finished");
+            Console.WriteLine(moduleName + " finished");
         }
     }
 }

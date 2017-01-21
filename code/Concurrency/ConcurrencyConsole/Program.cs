@@ -13,6 +13,8 @@ namespace ConcurrencyConsole
             Console.WriteLine("###############################");
             Console.WriteLine("Welcome to Concurrency Console!");
             Console.WriteLine("###############################");
+            EventCache.Start();
+            EventCache.Finish();
             Console.ReadLine();
         }
     }
