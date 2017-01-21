@@ -12,6 +12,7 @@ namespace ConcurrencyConsole
         public static  void Start()
         {
             Console.WriteLine(moduleName + " starting...");
+            Console.WriteLine(" here we go ");
         }
 
         public static void Finish()
