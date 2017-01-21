@@ -10,7 +10,7 @@ namespace ConcurrencyConsole
     {
         public static  void Start()
         {
-            Console.WriteLine("EventCache starting");
+            Console.WriteLine("EventCache starting...");
         }
 
         public static void Finish()
