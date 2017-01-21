@@ -8,5 +8,14 @@ namespace ConcurrencyConsole
 {
     public class EventCache
     {
+        public static  void Start()
+        {
+            Console.WriteLine("EventCache starting");
+        }
+
+        public static void Finish()
+        {
+            Console.WriteLine("EventCache finished");
+        }
     }
 }
